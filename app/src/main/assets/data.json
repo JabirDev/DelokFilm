@@ -1,0 +1,826 @@
+{
+  "movies" : [
+    {
+      "poster" : "@drawable/poster_a_start_is_born",
+      "title" : "A Star Is Born",
+      "rating" : "R",
+      "releaseDate" : "10/05/2018",
+      "userScore" : 7.5,
+      "overview" : "Seasoned musician Jackson Maine discovers — and falls in love with — struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+      "casts" : [
+        {
+          "photo" : "/DPnessSsWqVXRbKm93PtMjB4Us.jpg",
+          "name" : "Bradley Cooper",
+          "character" : "Jackson Maine"
+        },
+        {
+          "photo" : "/unNh9e9CEEx2VYZttKuAh1XVMWW.jpg",
+          "name" : "Lady Gaga",
+          "character" : "Ally Campana"
+        },
+        {
+          "photo" : "/1K2IvGXFbKsgkExuUsRvy4F0c9e.jpg",
+          "name" : "Sam Elliott",
+          "character" : "Bobby Maine"
+        },
+        {
+          "photo" : "/kq6APbPUbx0Mzoh6mK7k8Xoiw5m.jpg",
+          "name" : "Andrew Dice Clay",
+          "character" : "Lorenzo Campana"
+        },
+        {
+          "photo" : "/avCWoO9fLwEhbT6cvu0TJcSj49g.jpg",
+          "name" : "Rafi Gavron",
+          "character" : "Rez Gavron"
+        },
+        {
+          "photo" : "/ityTHqIXFT3laID4j4ptlnc84zq.jpg",
+          "name" : "Anthony Ramos",
+          "character" : "Ramon"
+        }
+      ],
+      "trailer" : "https://youtu.be/nSbzyEJ8X9E"
+    },
+    {
+      "poster" : "@drawable/poster_alita",
+      "title" : "Alita: Battle Angel",
+      "rating" : "PG-13",
+      "releaseDate" : "02/14/2019",
+      "userScore" : 7.2,
+      "overview" : "When Alita awakens with no memory of who she is in a future world she does not recognize, she is taken in by Ido, a compassionate doctor who realizes that somewhere in this abandoned cyborg shell is the heart and soul of a young woman with an extraordinary past.",
+      "casts" : [
+        {
+          "photo" : "/hrU1Kg1SH03x0RRmWEzmnWEonuU.jpg",
+          "name" : "Rosa Salazar",
+          "character" : "Alita"
+        },
+        {
+          "photo" : "/2Hhztd4mUEV9Y25rfkXDwzL9QI9.jpg",
+          "name" : "Christoph Waltz",
+          "character" : "Dr. Dyson Ido"
+        },
+        {
+          "photo" : "/3oYDftEbM3YgBiHYcbbIPRNZrTL.jpg",
+          "name" : "Jennifer Connelly",
+          "character" : "Chiren"
+        },
+        {
+          "photo" : "/y9mf12rlZBlVJS6JYuCPpjTaLT6.jpg",
+          "name" : "Mahershala Ali",
+          "character" : "Vector"
+        },
+        {
+          "photo" : "/c5PSRY9xbwJFCVCEeDIcx9SiJI1.jpg",
+          "name" : "Ed Skrein",
+          "character" : "Zapan"
+        },
+        {
+          "photo" : "/qVPNzBEm9xF4YX1SwkXhxgsuqCt.jpg",
+          "name" : "Jackie Earle Haley",
+          "character" : "Grewishka"
+        }
+      ],
+      "trailer" : "https://youtu.be/w7pYhpJaJW8"
+    },
+    {
+      "poster" : "@drawable/poster_aquaman",
+      "title" : "Aquaman",
+      "rating" : "PG-13",
+      "releaseDate" : "12/21/2018",
+      "userScore" : 6.9,
+      "overview" : "Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm's half-human, half-Atlantean brother and true heir to the throne.",
+      "casts" : [
+        {
+          "photo" : "/6dEFBpZH8C8OijsynkSajQT99Pb.jpg",
+          "name" : "Jason Momoa",
+          "character" : "Arthur Curry / Aquaman"
+        },
+        {
+          "photo" : "/ik0cfqudGTYBBRKF0x4gl2rSUQx.jpg",
+          "name" : "Amber Heard",
+          "character" : "Mera"
+        },
+        {
+          "photo" : "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
+          "name" : "Willem Dafoe",
+          "character" : "Nuidis Vulko"
+        },
+        {
+          "photo" : "/tc1ezEfIY8BhCy85svOUDtpBFPt.jpg",
+          "name" : "Patrick Wilson",
+          "character" : "King Orm Marius / Ocean Master"
+        },
+        {
+          "photo" : "/dlcNtb7y0Be1pOWdsogowLEsOta.jpg",
+          "name" : "Nicole Kidman",
+          "character" : "Atlanna"
+        },
+        {
+          "photo" : "/jDLOU3Ay59NxLH8QDm5hcVTaKuC.jpg",
+          "name" : "Dolph Lundgren",
+          "character" : "King Nereus"
+        }
+      ],
+      "trailer" : null
+    },
+    {
+      "poster" : "@drawable/poster_bohemian",
+      "title" : "Bohemian Rhapsody",
+      "rating" : "PG-13",
+      "releaseDate" : "11/02/2018",
+      "userScore" : 8.0,
+      "overview" : "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.",
+      "casts" : [
+        {
+          "photo" : "/2OuFzCbMibXGouG79tG1U4BLPbe.jpg",
+          "name" : "Rami Malek",
+          "character" : "Freddie Mercury"
+        },
+        {
+          "photo" : "/bHSmjJLJyrg5Q0tC0W2FFreuOnO.jpg",
+          "name" : "Gwilym Lee",
+          "character" : "Brian May"
+        },
+        {
+          "photo" : "/s8UEIomgY5AaEmPHkcPAScp68Fw.jpg",
+          "name" : "Ben Hardy",
+          "character" : "Roger Taylor"
+        },
+        {
+          "photo" : "/44gsv7TlXOOKDGg5aRtqxZjM9ae.jpg",
+          "name" : "Joseph Mazzello",
+          "character" : "John Deacon"
+        },
+        {
+          "photo" : "/9BSm1WVa6t0aj1cIHuVudkGVVy2.jpg",
+          "name" : "Lucy Boynton",
+          "character" : "Mary Austin"
+        },
+        {
+          "photo" : "/ju5ho6nnwOQ2QLGLnDP9yOZhGpb.jpg",
+          "name" : "Aidan Gillen",
+          "character" : "John Reid"
+        }
+      ],
+      "trailer" : null
+    },
+    {
+      "poster" : "@drawable/poster_cold_persuit",
+      "title" : "Cold Pursuit",
+      "rating" : "R",
+      "releaseDate" : "02/08/2019",
+      "userScore" : 5.7,
+      "overview" : "The quiet family life of Nels Coxman, a snowplow driver, is upended after his son's murder. Nels begins a vengeful hunt for Viking, the drug lord he holds responsible for the killing, eliminating Viking's associates one by one. As Nels draws closer to Viking, his actions bring even more unexpected and violent consequences, as he proves that revenge is all in the execution.",
+      "casts" : [
+        {
+          "photo" : "/bboldwqSC6tdw2iL6631c98l2Mn.jpg",
+          "name" : "Liam Neeson",
+          "character" : "Nels Coxman"
+        },
+        {
+          "photo" : "/2Ryt0SsExqWrLTzBu6sZcbLwoDJ.jpg",
+          "name" : "Laura Dern",
+          "character" : "Grace Coxman"
+        },
+        {
+          "photo" : "/aJ8bzA1WJOBFx0Ppdo1fLMiNxLh.jpg",
+          "name" : "Emmy Rossum",
+          "character" : "Kim Dash"
+        },
+        {
+          "photo" : "/la3J6E12pbZHe0sE73EipKkzQOp.jpg",
+          "name" : "Michael Eklund",
+          "character" : "Steve 'Speedo' Milliner"
+        },
+        {
+          "photo" : "/z9uCzTIAy9pi3r3X2fDGiYuLCXK.jpg",
+          "name" : "Micheál Richardson",
+          "character" : "Kyle Coxman"
+        },
+        {
+          "photo" : "/3h0F6HRz4He5ESx9mIIIGV90MF2.jpg",
+          "name" : "Bradley Stryker",
+          "character" : "Jacob 'Limbo' Rutman"
+        }
+      ],
+      "trailer" : null
+    },
+    {
+      "poster" : "@drawable/poster_creed",
+      "title" : "Creed II",
+      "rating" : "PG-13",
+      "releaseDate" : "11/21/2018",
+      "userScore" : 6.9,
+      "overview" : "Between personal obligations and training for his next big fight against an opponent with ties to his family's past, Adonis Creed is up against the challenge of his life.",
+      "casts" : [
+        {
+          "photo" : "/hz9AOUWZ2zzS0dpPJ1yQv2grA35.jpg",
+          "name" : "Michael B. Jordan",
+          "character" : "Adonis Creed"
+        },
+        {
+          "photo" : "/qDRGPAcQoW8Wuig9bvoLpHwf1gU.jpg",
+          "name" : "Sylvester Stallone",
+          "character" : "Robert \"Rocky\" Balboa Sr."
+        },
+        {
+          "photo" : "/jDLOU3Ay59NxLH8QDm5hcVTaKuC.jpg",
+          "name" : "Dolph Lundgren",
+          "character" : "Ivan Drago"
+        },
+        {
+          "photo" : "/lE26A169mjuwW5x0zx2wW9Q9o2w.jpg",
+          "name" : "Florian Munteanu",
+          "character" : "Viktor Drago"
+        },
+        {
+          "photo" : "/cJ64yI9OiQN8Edp4FgAHiLuoWiQ.jpg",
+          "name" : "Tessa Thompson",
+          "character" : "Bianca Taylor"
+        },
+        {
+          "photo" : "/9gvwUEu1fZTSTkykaCx2fSdSDWK.jpg",
+          "name" : "Wood Harris",
+          "character" : "Tony \"Little Duke\" Evers"
+        }
+      ],
+      "trailer" : null
+    },
+    {
+      "poster" : "@drawable/poster_crimes",
+      "title" : "Fantastic Beasts: The Crimes of Grindelwald",
+      "rating" : "PG-13",
+      "releaseDate" : "11/16/2018",
+      "userScore" : 6.9,
+      "overview" : "Gellert Grindelwald has escaped imprisonment and has begun gathering followers to his cause—elevating wizards above all non-magical beings. The only one capable of putting a stop to him is the wizard he once called his closest friend, Albus Dumbledore. However, Dumbledore will need to seek help from the wizard who had thwarted Grindelwald once before, his former student Newt Scamander, who agrees to help, unaware of the dangers that lie ahead. Lines are drawn as love and loyalty are tested, even among the truest friends and family, in an increasingly divided wizarding world.",
+      "casts" : [
+        {
+          "photo" : "/fSvG7qzoBBnJUmgtIuMgrK3EQPN.jpg",
+          "name" : "Eddie Redmayne",
+          "character" : "Newt Scamander"
+        },
+        {
+          "photo" : "/cMO1x5gksXKkxh6tDzIzHvHp3VV.jpg",
+          "name" : "Katherine Waterston",
+          "character" : "Porpentina 'Tina' Goldstein"
+        },
+        {
+          "photo" : "/zJWbLEjfbDthBMucq9M6L4GJXL3.jpg",
+          "name" : "Dan Fogler",
+          "character" : "Jacob Kowalski"
+        },
+        {
+          "photo" : "/49DhpCxZkqpC6PZxQYWNDCZqUY0.jpg",
+          "name" : "Alison Sudol",
+          "character" : "Queenie Goldstein"
+        },
+        {
+          "photo" : "/ilPBHd3r3ahlipNQtjr4E3G04jJ.jpg",
+          "name" : "Johnny Depp",
+          "character" : "Gellert Grindelwald"
+        },
+        {
+          "photo" : "/A6Y0m7qEe04ZTHKyYDLbnyCHNzn.jpg",
+          "name" : "Jude Law",
+          "character" : "Albus Dumbledore"
+        }
+      ],
+      "trailer" : null
+    },
+    {
+      "poster" : "@drawable/poster_glass",
+      "title" : "Glass",
+      "rating" : "PG-13",
+      "releaseDate" : "01/18/2019",
+      "userScore" : 6.7,
+      "overview" : "In a series of escalating encounters, former security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.",
+      "casts" : [
+        {
+          "photo" : "/u4REKbm3zhFI2J5tVyqRovGRYUJ.jpg",
+          "name" : "James McAvoy",
+          "character" : "Patricia"
+        },
+        {
+          "photo" : "/caX3KtMU42EP3VLRFFBwqIIrch5.jpg",
+          "name" : "Bruce Willis",
+          "character" : "David Dunn"
+        },
+        {
+          "photo" : "/nCJJ3NVksYNxIzEHcyC1XziwPVj.jpg",
+          "name" : "Samuel L. Jackson",
+          "character" : "Mr. Glass"
+        },
+        {
+          "photo" : "/aSOvCmB1nsl19IqrjuuWwaguvDh.jpg",
+          "name" : "Anya Taylor-Joy",
+          "character" : "Casey Cooke"
+        },
+        {
+          "photo" : "/jkhpv4oPNcMSvPPDUuCyPIFwYyS.jpg",
+          "name" : "Sarah Paulson",
+          "character" : "Dr. Ellie Staple"
+        },
+        {
+          "photo" : "/bvq0KXSIc5PE6yHnpEDM8PR44Fe.jpg",
+          "name" : "Spencer Treat Clark",
+          "character" : "Joseph Dunn"
+        }
+      ],
+      "trailer" : null
+    },
+    {
+      "poster" : "@drawable/poster_how_to_train",
+      "title" : "How to Train Your Dragon: The Hidden World",
+      "rating" : "PG",
+      "releaseDate" : "02/22/2019",
+      "userScore" : 7.8,
+      "overview" : "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.",
+      "casts" : [
+        {
+          "photo" : "/aDfqAMsPzIZvvj1ymivsKjRAfyv.jpg",
+          "name" : "Jay Baruchel",
+          "character" : "Hiccup (voice)"
+        },
+        {
+          "photo" : "/7F84Lh2lKpvkM3EiOvqqvlOmw93.jpg",
+          "name" : "America Ferrera",
+          "character" : "Astrid (voice)"
+        },
+        {
+          "photo" : "/p2RYVGdrcP0m70BkkiKcwyrDeim.jpg",
+          "name" : "F. Murray Abraham",
+          "character" : "Grimmel (voice)"
+        },
+        {
+          "photo" : "/vUuEHiAR0eD3XEJhg2DWIjymUAA.jpg",
+          "name" : "Cate Blanchett",
+          "character" : "Valka (voice)"
+        },
+        {
+          "photo" : "/1vRHSuQtLEUAXqKO3l1mjUxd4j4.jpg",
+          "name" : "Gerard Butler",
+          "character" : "Stoick (voice)"
+        },
+        {
+          "photo" : "/mBxNrOxdQeM7bVBveE47Syj9ES6.jpg",
+          "name" : "Craig Ferguson",
+          "character" : "Gobber (voice)"
+        }
+      ],
+      "trailer" : null
+    },
+    {
+      "poster" : "@drawable/poster_infinity_war",
+      "title" : "Avengers: Infinity War",
+      "rating" : "PG-13",
+      "releaseDate" : "04/27/2018",
+      "userScore" : 8.3,
+      "overview" : "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "casts" : [
+        {
+          "photo" : "/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg",
+          "name" : "Robert Downey Jr.",
+          "character" : "Tony Stark / Iron Man"
+        },
+        {
+          "photo" : "/jpurJ9jAcLCYjgHHfYF32m3zJYm.jpg",
+          "name" : "Chris Hemsworth",
+          "character" : "Thor Odinson"
+        },
+        {
+          "photo" : "/z3dvKqMNDQWk3QLxzumloQVR0pv.jpg",
+          "name" : "Mark Ruffalo",
+          "character" : "Bruce Banner / Hulk"
+        },
+        {
+          "photo" : "/3bOGNsHlrswhyW79uvIHH1V43JI.jpg",
+          "name" : "Chris Evans",
+          "character" : "Steve Rogers / Captain America"
+        },
+        {
+          "photo" : "/6NsMbJXRlDZuDzatN2akFdGuTvx.jpg",
+          "name" : "Scarlett Johansson",
+          "character" : "Natasha Romanoff / Black Widow"
+        },
+        {
+          "photo" : "/fBEucxECxGLKVHBznO0qHtCGiMO.jpg",
+          "name" : "Benedict Cumberbatch",
+          "character" : "Stephen Strange / Doctor Strange"
+        }
+      ],
+      "trailer" : null
+    }
+  ],
+  "tv_shows" : [
+    {
+      "poster" : "@drawable/tv_poster_arrow",
+      "title" : "A Star Is Born",
+      "rating" : "R",
+      "releaseDate" : "10/05/2018",
+      "userScore" : 7.5,
+      "overview" : "Seasoned musician Jackson Maine discovers — and falls in love with — struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+      "casts" : [
+        {
+          "photo" : "/DPnessSsWqVXRbKm93PtMjB4Us.jpg",
+          "name" : "Bradley Cooper",
+          "character" : "Jackson Maine"
+        },
+        {
+          "photo" : "/unNh9e9CEEx2VYZttKuAh1XVMWW.jpg",
+          "name" : "Lady Gaga",
+          "character" : "Ally Campana"
+        },
+        {
+          "photo" : "/1K2IvGXFbKsgkExuUsRvy4F0c9e.jpg",
+          "name" : "Sam Elliott",
+          "character" : "Bobby Maine"
+        },
+        {
+          "photo" : "/kq6APbPUbx0Mzoh6mK7k8Xoiw5m.jpg",
+          "name" : "Andrew Dice Clay",
+          "character" : "Lorenzo Campana"
+        },
+        {
+          "photo" : "/avCWoO9fLwEhbT6cvu0TJcSj49g.jpg",
+          "name" : "Rafi Gavron",
+          "character" : "Rez Gavron"
+        },
+        {
+          "photo" : "/ityTHqIXFT3laID4j4ptlnc84zq.jpg",
+          "name" : "Anthony Ramos",
+          "character" : "Ramon"
+        }
+      ],
+      "trailer" : "https://youtu.be/nSbzyEJ8X9E"
+    },
+    {
+      "poster" : "@drawable/tv_poster_doom_patrol",
+      "title" : "Alita: Battle Angel",
+      "rating" : "PG-13",
+      "releaseDate" : "02/14/2019",
+      "userScore" : 7.2,
+      "overview" : "When Alita awakens with no memory of who she is in a future world she does not recognize, she is taken in by Ido, a compassionate doctor who realizes that somewhere in this abandoned cyborg shell is the heart and soul of a young woman with an extraordinary past.",
+      "casts" : [
+        {
+          "photo" : "/hrU1Kg1SH03x0RRmWEzmnWEonuU.jpg",
+          "name" : "Rosa Salazar",
+          "character" : "Alita"
+        },
+        {
+          "photo" : "/2Hhztd4mUEV9Y25rfkXDwzL9QI9.jpg",
+          "name" : "Christoph Waltz",
+          "character" : "Dr. Dyson Ido"
+        },
+        {
+          "photo" : "/3oYDftEbM3YgBiHYcbbIPRNZrTL.jpg",
+          "name" : "Jennifer Connelly",
+          "character" : "Chiren"
+        },
+        {
+          "photo" : "/y9mf12rlZBlVJS6JYuCPpjTaLT6.jpg",
+          "name" : "Mahershala Ali",
+          "character" : "Vector"
+        },
+        {
+          "photo" : "/c5PSRY9xbwJFCVCEeDIcx9SiJI1.jpg",
+          "name" : "Ed Skrein",
+          "character" : "Zapan"
+        },
+        {
+          "photo" : "/qVPNzBEm9xF4YX1SwkXhxgsuqCt.jpg",
+          "name" : "Jackie Earle Haley",
+          "character" : "Grewishka"
+        }
+      ],
+      "trailer" : "https://youtu.be/w7pYhpJaJW8"
+    },
+    {
+      "poster" : "@drawable/tv_poster_dragon_ball",
+      "title" : "Aquaman",
+      "rating" : "PG-13",
+      "releaseDate" : "12/21/2018",
+      "userScore" : 6.9,
+      "overview" : "Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm's half-human, half-Atlantean brother and true heir to the throne.",
+      "casts" : [
+        {
+          "photo" : "/6dEFBpZH8C8OijsynkSajQT99Pb.jpg",
+          "name" : "Jason Momoa",
+          "character" : "Arthur Curry / Aquaman"
+        },
+        {
+          "photo" : "/ik0cfqudGTYBBRKF0x4gl2rSUQx.jpg",
+          "name" : "Amber Heard",
+          "character" : "Mera"
+        },
+        {
+          "photo" : "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
+          "name" : "Willem Dafoe",
+          "character" : "Nuidis Vulko"
+        },
+        {
+          "photo" : "/tc1ezEfIY8BhCy85svOUDtpBFPt.jpg",
+          "name" : "Patrick Wilson",
+          "character" : "King Orm Marius / Ocean Master"
+        },
+        {
+          "photo" : "/dlcNtb7y0Be1pOWdsogowLEsOta.jpg",
+          "name" : "Nicole Kidman",
+          "character" : "Atlanna"
+        },
+        {
+          "photo" : "/jDLOU3Ay59NxLH8QDm5hcVTaKuC.jpg",
+          "name" : "Dolph Lundgren",
+          "character" : "King Nereus"
+        }
+      ],
+      "trailer" : null
+    },
+    {
+      "poster" : "@drawable/tv_poster_fairytail",
+      "title" : "Bohemian Rhapsody",
+      "rating" : "PG-13",
+      "releaseDate" : "11/02/2018",
+      "userScore" : 8.0,
+      "overview" : "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.",
+      "casts" : [
+        {
+          "photo" : "/2OuFzCbMibXGouG79tG1U4BLPbe.jpg",
+          "name" : "Rami Malek",
+          "character" : "Freddie Mercury"
+        },
+        {
+          "photo" : "/bHSmjJLJyrg5Q0tC0W2FFreuOnO.jpg",
+          "name" : "Gwilym Lee",
+          "character" : "Brian May"
+        },
+        {
+          "photo" : "/s8UEIomgY5AaEmPHkcPAScp68Fw.jpg",
+          "name" : "Ben Hardy",
+          "character" : "Roger Taylor"
+        },
+        {
+          "photo" : "/44gsv7TlXOOKDGg5aRtqxZjM9ae.jpg",
+          "name" : "Joseph Mazzello",
+          "character" : "John Deacon"
+        },
+        {
+          "photo" : "/9BSm1WVa6t0aj1cIHuVudkGVVy2.jpg",
+          "name" : "Lucy Boynton",
+          "character" : "Mary Austin"
+        },
+        {
+          "photo" : "/ju5ho6nnwOQ2QLGLnDP9yOZhGpb.jpg",
+          "name" : "Aidan Gillen",
+          "character" : "John Reid"
+        }
+      ],
+      "trailer" : null
+    },
+    {
+      "poster" : "@drawable/tv_poster_family_guy",
+      "title" : "Cold Pursuit",
+      "rating" : "R",
+      "releaseDate" : "02/08/2019",
+      "userScore" : 5.7,
+      "overview" : "The quiet family life of Nels Coxman, a snowplow driver, is upended after his son's murder. Nels begins a vengeful hunt for Viking, the drug lord he holds responsible for the killing, eliminating Viking's associates one by one. As Nels draws closer to Viking, his actions bring even more unexpected and violent consequences, as he proves that revenge is all in the execution.",
+      "casts" : [
+        {
+          "photo" : "/bboldwqSC6tdw2iL6631c98l2Mn.jpg",
+          "name" : "Liam Neeson",
+          "character" : "Nels Coxman"
+        },
+        {
+          "photo" : "/2Ryt0SsExqWrLTzBu6sZcbLwoDJ.jpg",
+          "name" : "Laura Dern",
+          "character" : "Grace Coxman"
+        },
+        {
+          "photo" : "/aJ8bzA1WJOBFx0Ppdo1fLMiNxLh.jpg",
+          "name" : "Emmy Rossum",
+          "character" : "Kim Dash"
+        },
+        {
+          "photo" : "/la3J6E12pbZHe0sE73EipKkzQOp.jpg",
+          "name" : "Michael Eklund",
+          "character" : "Steve 'Speedo' Milliner"
+        },
+        {
+          "photo" : "/z9uCzTIAy9pi3r3X2fDGiYuLCXK.jpg",
+          "name" : "Micheál Richardson",
+          "character" : "Kyle Coxman"
+        },
+        {
+          "photo" : "/3h0F6HRz4He5ESx9mIIIGV90MF2.jpg",
+          "name" : "Bradley Stryker",
+          "character" : "Jacob 'Limbo' Rutman"
+        }
+      ],
+      "trailer" : null
+    },
+    {
+      "poster" : "@drawable/tv_poster_flash",
+      "title" : "Creed II",
+      "rating" : "PG-13",
+      "releaseDate" : "11/21/2018",
+      "userScore" : 6.9,
+      "overview" : "Between personal obligations and training for his next big fight against an opponent with ties to his family's past, Adonis Creed is up against the challenge of his life.",
+      "casts" : [
+        {
+          "photo" : "/hz9AOUWZ2zzS0dpPJ1yQv2grA35.jpg",
+          "name" : "Michael B. Jordan",
+          "character" : "Adonis Creed"
+        },
+        {
+          "photo" : "/qDRGPAcQoW8Wuig9bvoLpHwf1gU.jpg",
+          "name" : "Sylvester Stallone",
+          "character" : "Robert \"Rocky\" Balboa Sr."
+        },
+        {
+          "photo" : "/jDLOU3Ay59NxLH8QDm5hcVTaKuC.jpg",
+          "name" : "Dolph Lundgren",
+          "character" : "Ivan Drago"
+        },
+        {
+          "photo" : "/lE26A169mjuwW5x0zx2wW9Q9o2w.jpg",
+          "name" : "Florian Munteanu",
+          "character" : "Viktor Drago"
+        },
+        {
+          "photo" : "/cJ64yI9OiQN8Edp4FgAHiLuoWiQ.jpg",
+          "name" : "Tessa Thompson",
+          "character" : "Bianca Taylor"
+        },
+        {
+          "photo" : "/9gvwUEu1fZTSTkykaCx2fSdSDWK.jpg",
+          "name" : "Wood Harris",
+          "character" : "Tony \"Little Duke\" Evers"
+        }
+      ],
+      "trailer" : null
+    },
+    {
+      "poster" : "@drawable/tv_poster_god",
+      "title" : "Fantastic Beasts: The Crimes of Grindelwald",
+      "rating" : "PG-13",
+      "releaseDate" : "11/16/2018",
+      "userScore" : 6.9,
+      "overview" : "Gellert Grindelwald has escaped imprisonment and has begun gathering followers to his cause—elevating wizards above all non-magical beings. The only one capable of putting a stop to him is the wizard he once called his closest friend, Albus Dumbledore. However, Dumbledore will need to seek help from the wizard who had thwarted Grindelwald once before, his former student Newt Scamander, who agrees to help, unaware of the dangers that lie ahead. Lines are drawn as love and loyalty are tested, even among the truest friends and family, in an increasingly divided wizarding world.",
+      "casts" : [
+        {
+          "photo" : "/fSvG7qzoBBnJUmgtIuMgrK3EQPN.jpg",
+          "name" : "Eddie Redmayne",
+          "character" : "Newt Scamander"
+        },
+        {
+          "photo" : "/cMO1x5gksXKkxh6tDzIzHvHp3VV.jpg",
+          "name" : "Katherine Waterston",
+          "character" : "Porpentina 'Tina' Goldstein"
+        },
+        {
+          "photo" : "/zJWbLEjfbDthBMucq9M6L4GJXL3.jpg",
+          "name" : "Dan Fogler",
+          "character" : "Jacob Kowalski"
+        },
+        {
+          "photo" : "/49DhpCxZkqpC6PZxQYWNDCZqUY0.jpg",
+          "name" : "Alison Sudol",
+          "character" : "Queenie Goldstein"
+        },
+        {
+          "photo" : "/ilPBHd3r3ahlipNQtjr4E3G04jJ.jpg",
+          "name" : "Johnny Depp",
+          "character" : "Gellert Grindelwald"
+        },
+        {
+          "photo" : "/A6Y0m7qEe04ZTHKyYDLbnyCHNzn.jpg",
+          "name" : "Jude Law",
+          "character" : "Albus Dumbledore"
+        }
+      ],
+      "trailer" : null
+    },
+    {
+      "poster" : "@drawable/tv_poster_gotham",
+      "title" : "Glass",
+      "rating" : "PG-13",
+      "releaseDate" : "01/18/2019",
+      "userScore" : 6.7,
+      "overview" : "In a series of escalating encounters, former security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.",
+      "casts" : [
+        {
+          "photo" : "/u4REKbm3zhFI2J5tVyqRovGRYUJ.jpg",
+          "name" : "James McAvoy",
+          "character" : "Patricia"
+        },
+        {
+          "photo" : "/caX3KtMU42EP3VLRFFBwqIIrch5.jpg",
+          "name" : "Bruce Willis",
+          "character" : "David Dunn"
+        },
+        {
+          "photo" : "/nCJJ3NVksYNxIzEHcyC1XziwPVj.jpg",
+          "name" : "Samuel L. Jackson",
+          "character" : "Mr. Glass"
+        },
+        {
+          "photo" : "/aSOvCmB1nsl19IqrjuuWwaguvDh.jpg",
+          "name" : "Anya Taylor-Joy",
+          "character" : "Casey Cooke"
+        },
+        {
+          "photo" : "/jkhpv4oPNcMSvPPDUuCyPIFwYyS.jpg",
+          "name" : "Sarah Paulson",
+          "character" : "Dr. Ellie Staple"
+        },
+        {
+          "photo" : "/bvq0KXSIc5PE6yHnpEDM8PR44Fe.jpg",
+          "name" : "Spencer Treat Clark",
+          "character" : "Joseph Dunn"
+        }
+      ],
+      "trailer" : null
+    },
+    {
+      "poster" : "@drawable/tv_poster_grey_anatomy",
+      "title" : "How to Train Your Dragon: The Hidden World",
+      "rating" : "PG",
+      "releaseDate" : "02/22/2019",
+      "userScore" : 7.8,
+      "overview" : "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.",
+      "casts" : [
+        {
+          "photo" : "/aDfqAMsPzIZvvj1ymivsKjRAfyv.jpg",
+          "name" : "Jay Baruchel",
+          "character" : "Hiccup (voice)"
+        },
+        {
+          "photo" : "/7F84Lh2lKpvkM3EiOvqqvlOmw93.jpg",
+          "name" : "America Ferrera",
+          "character" : "Astrid (voice)"
+        },
+        {
+          "photo" : "/p2RYVGdrcP0m70BkkiKcwyrDeim.jpg",
+          "name" : "F. Murray Abraham",
+          "character" : "Grimmel (voice)"
+        },
+        {
+          "photo" : "/vUuEHiAR0eD3XEJhg2DWIjymUAA.jpg",
+          "name" : "Cate Blanchett",
+          "character" : "Valka (voice)"
+        },
+        {
+          "photo" : "/1vRHSuQtLEUAXqKO3l1mjUxd4j4.jpg",
+          "name" : "Gerard Butler",
+          "character" : "Stoick (voice)"
+        },
+        {
+          "photo" : "/mBxNrOxdQeM7bVBveE47Syj9ES6.jpg",
+          "name" : "Craig Ferguson",
+          "character" : "Gobber (voice)"
+        }
+      ],
+      "trailer" : null
+    },
+    {
+      "poster" : "@drawable/poster_hanna",
+      "title" : "Avengers: Infinity War",
+      "rating" : "PG-13",
+      "releaseDate" : "04/27/2018",
+      "userScore" : 8.3,
+      "overview" : "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "casts" : [
+        {
+          "photo" : "/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg",
+          "name" : "Robert Downey Jr.",
+          "character" : "Tony Stark / Iron Man"
+        },
+        {
+          "photo" : "/jpurJ9jAcLCYjgHHfYF32m3zJYm.jpg",
+          "name" : "Chris Hemsworth",
+          "character" : "Thor Odinson"
+        },
+        {
+          "photo" : "/z3dvKqMNDQWk3QLxzumloQVR0pv.jpg",
+          "name" : "Mark Ruffalo",
+          "character" : "Bruce Banner / Hulk"
+        },
+        {
+          "photo" : "/3bOGNsHlrswhyW79uvIHH1V43JI.jpg",
+          "name" : "Chris Evans",
+          "character" : "Steve Rogers / Captain America"
+        },
+        {
+          "photo" : "/6NsMbJXRlDZuDzatN2akFdGuTvx.jpg",
+          "name" : "Scarlett Johansson",
+          "character" : "Natasha Romanoff / Black Widow"
+        },
+        {
+          "photo" : "/fBEucxECxGLKVHBznO0qHtCGiMO.jpg",
+          "name" : "Benedict Cumberbatch",
+          "character" : "Stephen Strange / Doctor Strange"
+        }
+      ],
+      "trailer" : null
+    }
+  ]
+}
