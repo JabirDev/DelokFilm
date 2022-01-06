@@ -6,8 +6,8 @@
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorSecondary">@color/pink_200</item>
+        <item name="colorSecondaryVariant">@color/pink_200</item>
         <item name="colorOnSecondary">@color/black</item>
         <!--Typography-->
         <item name="textAppearanceHeadline2">@style/TextAppearance.JabirDev.Headline2</item>
