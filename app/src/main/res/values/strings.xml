@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">Delok Film</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_day">Day</string>
+    <string name="title_night">Night</string>
     <string-array name="tab_titles">
         <item>Movies</item>
         <item>TV Show</item>
     </string-array>
+    <string name="transition_item">transition_item</string>
+    <string name="title_share">Share</string>
+    <string name="tv_casts">Casts</string>
 </resources>

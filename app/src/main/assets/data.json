@@ -414,410 +414,390 @@
   "tv_shows" : [
     {
       "poster" : "@drawable/tv_poster_arrow",
-      "title" : "A Star Is Born",
-      "rating" : "R",
-      "releaseDate" : "10/05/2018",
-      "userScore" : 7.5,
-      "overview" : "Seasoned musician Jackson Maine discovers — and falls in love with — struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.",
+      "title" : "The Arrow",
+      "rating" : "TV-14",
+      "releaseDate" : "10/10/2012",
+      "userScore" : 6.7,
+      "overview" : "Spoiled billionaire playboy Oliver Queen is missing and presumed dead when his yacht is lost at sea. He returns five years later a changed man, determined to clean up the city as a hooded vigilante armed with a bow.",
       "casts" : [
         {
-          "photo" : "/DPnessSsWqVXRbKm93PtMjB4Us.jpg",
-          "name" : "Bradley Cooper",
-          "character" : "Jackson Maine"
+          "photo" : "/gN8cpnUaPIzWhVufahmzV0dwOgp.jpg",
+          "name" : "Stephen Amell",
+          "character" : "Oliver Queen / Green Arrow"
         },
         {
-          "photo" : "/unNh9e9CEEx2VYZttKuAh1XVMWW.jpg",
-          "name" : "Lady Gaga",
-          "character" : "Ally Campana"
+          "photo" : "/bZWO7WfBYI8iojTFozzqN2X3RWL.jpg",
+          "name" : "David Ramsey",
+          "character" : "John Diggle / Spartan"
         },
         {
-          "photo" : "/1K2IvGXFbKsgkExuUsRvy4F0c9e.jpg",
-          "name" : "Sam Elliott",
-          "character" : "Bobby Maine"
+          "photo" : "/v7cs7RFcfoiL8W1YRkZK5lBc57H.jpg",
+          "name" : "Katie Cassidy",
+          "character" : "Laurel Lance / Black Canary"
         },
         {
-          "photo" : "/kq6APbPUbx0Mzoh6mK7k8Xoiw5m.jpg",
-          "name" : "Andrew Dice Clay",
-          "character" : "Lorenzo Campana"
+          "photo" : "/pVHDPq1a2oCZktgI3VumMRzGBd3.jpg",
+          "name" : "Rick Gonzalez",
+          "character" : "Rene Ramirez / Wild Dog"
         },
         {
-          "photo" : "/avCWoO9fLwEhbT6cvu0TJcSj49g.jpg",
-          "name" : "Rafi Gavron",
-          "character" : "Rez Gavron"
+          "photo" : "/cuGVMcnpi6HjobaGADo1xtaDglR.jpg",
+          "name" : "Katherine McNamara",
+          "character" : "Mia Smoak / Blackstar"
         },
         {
-          "photo" : "/ityTHqIXFT3laID4j4ptlnc84zq.jpg",
-          "name" : "Anthony Ramos",
-          "character" : "Ramon"
+          "photo" : "/mO8gTYhjrVO2N2dtjwWt1PEYjoo.jpg",
+          "name" : "Juliana Harkavy",
+          "character" : "Dinah Drake / Black Canary"
         }
       ],
-      "trailer" : "https://youtu.be/nSbzyEJ8X9E"
+      "trailer" : null
     },
     {
       "poster" : "@drawable/tv_poster_doom_patrol",
-      "title" : "Alita: Battle Angel",
-      "rating" : "PG-13",
-      "releaseDate" : "02/14/2019",
-      "userScore" : 7.2,
-      "overview" : "When Alita awakens with no memory of who she is in a future world she does not recognize, she is taken in by Ido, a compassionate doctor who realizes that somewhere in this abandoned cyborg shell is the heart and soul of a young woman with an extraordinary past.",
+      "title" : "Doom Patrol",
+      "rating" : "TV-MA",
+      "releaseDate" : "15/02/2019",
+      "userScore" : 7.7,
+      "overview" : "The Doom Patrol’s members each suffered horrible accidents that gave them superhuman abilities — but also left them scarred and disfigured. Traumatized and downtrodden, the team found purpose through The Chief, who brought them together to investigate the weirdest phenomena in existence — and to protect Earth from what they find.",
       "casts" : [
         {
-          "photo" : "/hrU1Kg1SH03x0RRmWEzmnWEonuU.jpg",
-          "name" : "Rosa Salazar",
-          "character" : "Alita"
+          "photo" : "/5LXvRYdxKLWROAD2KDSXzRNNSdE.jpg",
+          "name" : "Diane Guerrero",
+          "character" : "Crazy Jane"
         },
         {
-          "photo" : "/2Hhztd4mUEV9Y25rfkXDwzL9QI9.jpg",
-          "name" : "Christoph Waltz",
-          "character" : "Dr. Dyson Ido"
+          "photo" : "/c5Yk2tqApmbmKXHoPbYQauXssED.jpg",
+          "name" : "April Bowlby",
+          "character" : "Rita Farr / Elasti-Woman"
         },
         {
-          "photo" : "/3oYDftEbM3YgBiHYcbbIPRNZrTL.jpg",
-          "name" : "Jennifer Connelly",
-          "character" : "Chiren"
+          "photo" : "/7tPro9hPR54m3zbLIfypsDDUDCI.jpg",
+          "name" : "Joivan Wade",
+          "character" : "Victor Stone / Cyborg"
         },
         {
-          "photo" : "/y9mf12rlZBlVJS6JYuCPpjTaLT6.jpg",
-          "name" : "Mahershala Ali",
-          "character" : "Vector"
+          "photo" : "/7sSiLdxA4berqw9n8RxthlqAGwA.jpg",
+          "name" : "Skye Roberts",
+          "character" : "Kay Challis"
         },
         {
-          "photo" : "/c5PSRY9xbwJFCVCEeDIcx9SiJI1.jpg",
-          "name" : "Ed Skrein",
-          "character" : "Zapan"
+          "photo" : "/rrCGuR7aXGFbO6NcdSFHQIHrc0A.jpg",
+          "name" : "Riley Shanahan",
+          "character" : "Cliff Steele / Robotman"
         },
         {
-          "photo" : "/qVPNzBEm9xF4YX1SwkXhxgsuqCt.jpg",
-          "name" : "Jackie Earle Haley",
-          "character" : "Grewishka"
+          "photo" : "/jifQz74EU8qsigSgNZR2u2SDhek.jpg",
+          "name" : "Matthew Zuk",
+          "character" : "Larry Trainor / Negative Man"
         }
       ],
-      "trailer" : "https://youtu.be/w7pYhpJaJW8"
+      "trailer" : null
     },
     {
       "poster" : "@drawable/tv_poster_dragon_ball",
-      "title" : "Aquaman",
-      "rating" : "PG-13",
-      "releaseDate" : "12/21/2018",
-      "userScore" : 6.9,
-      "overview" : "Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm's half-human, half-Atlantean brother and true heir to the throne.",
+      "title" : "Dragon Ball",
+      "rating" : "TV-PG",
+      "releaseDate" : "26/02/1986",
+      "userScore" : 8.2,
+      "overview" : "Long ago in the mountains, a fighting master known as Gohan discovered a strange boy whom he named Goku. Gohan raised him and trained Goku in martial arts until he died. The young and very strong boy was on his own, but easily managed. Then one day, Goku met a teenage girl named Bulma, whose search for the mystical Dragon Balls brought her to Goku's home. Together, they set off to find all seven and to grant her wish.",
       "casts" : [
         {
-          "photo" : "/6dEFBpZH8C8OijsynkSajQT99Pb.jpg",
-          "name" : "Jason Momoa",
-          "character" : "Arthur Curry / Aquaman"
+          "photo" : "/jxbXdejmPoiKnNoQz7Dkb80qC26.jpg",
+          "name" : "Masako Nozawa",
+          "character" : "Son Goku (voice)"
         },
         {
-          "photo" : "/ik0cfqudGTYBBRKF0x4gl2rSUQx.jpg",
-          "name" : "Amber Heard",
-          "character" : "Mera"
+          "photo" : "/dWh2Y3bQkSjPv3c7kyy5P6M3PLS.jpg",
+          "name" : "Mayumi Tanaka",
+          "character" : "Krillin (voice)"
         },
         {
-          "photo" : "/ui8e4sgZAwMPi3hzEO53jyBJF9B.jpg",
-          "name" : "Willem Dafoe",
-          "character" : "Nuidis Vulko"
+          "photo" : "/oFU9CCNLUhklLhEuLutM0FyTUbt.jpg",
+          "name" : "Hiromi Tsuru",
+          "character" : "Bulma (voice)"
         },
         {
-          "photo" : "/tc1ezEfIY8BhCy85svOUDtpBFPt.jpg",
-          "name" : "Patrick Wilson",
-          "character" : "King Orm Marius / Ocean Master"
+          "photo" : "",
+          "name" : "Toru Furuya",
+          "character" : "Yamcha (voice)"
         },
         {
-          "photo" : "/dlcNtb7y0Be1pOWdsogowLEsOta.jpg",
-          "name" : "Nicole Kidman",
-          "character" : "Atlanna"
+          "photo" : "/iYGYNGRoQv0yRwKhisqfk5ARVTE.jpg",
+          "name" : "Naoki Tatsuta",
+          "character" : "Oolong (voice)"
         },
         {
-          "photo" : "/jDLOU3Ay59NxLH8QDm5hcVTaKuC.jpg",
-          "name" : "Dolph Lundgren",
-          "character" : "King Nereus"
+          "photo" : "",
+          "name" : "Naoko Watanabe",
+          "character" : "Puar (voice)"
         }
       ],
       "trailer" : null
     },
     {
       "poster" : "@drawable/tv_poster_fairytail",
-      "title" : "Bohemian Rhapsody",
-      "rating" : "PG-13",
-      "releaseDate" : "11/02/2018",
-      "userScore" : 8.0,
-      "overview" : "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.",
+      "title" : "Fairy Tail",
+      "rating" : "TV-14",
+      "releaseDate" : "12/10/2009",
+      "userScore" : 7.8,
+      "overview" : "Lucy is a 17-year-old girl, who wants to be a full-fledged mage. One day when visiting Harujion Town, she meets Natsu, a young man who gets sick easily by any type of transportation. But Natsu isn't just any ordinary kid, he's a member of one of the world's most infamous mage guilds: Fairy Tail.",
       "casts" : [
         {
-          "photo" : "/2OuFzCbMibXGouG79tG1U4BLPbe.jpg",
-          "name" : "Rami Malek",
-          "character" : "Freddie Mercury"
+          "photo" : "/uogW9g7uqEdB1nbShhjp6NSXeue.jpg",
+          "name" : "Tetsuya Kakihara",
+          "character" : "Natsu Dragneel (voice)"
         },
         {
-          "photo" : "/bHSmjJLJyrg5Q0tC0W2FFreuOnO.jpg",
-          "name" : "Gwilym Lee",
-          "character" : "Brian May"
+          "photo" : "/zaSJKfuKhw7e4VTnTKnlHBRzjQU.jpg",
+          "name" : "Aya Hirano",
+          "character" : "Lucy Heartfilia (voice)"
         },
         {
-          "photo" : "/s8UEIomgY5AaEmPHkcPAScp68Fw.jpg",
-          "name" : "Ben Hardy",
-          "character" : "Roger Taylor"
+          "photo" : "/5uxG4tsx8vCfxI8yr1RoeDkrsDg.jpg",
+          "name" : "Rie Kugimiya",
+          "character" : "Happy (voice)"
         },
         {
-          "photo" : "/44gsv7TlXOOKDGg5aRtqxZjM9ae.jpg",
-          "name" : "Joseph Mazzello",
-          "character" : "John Deacon"
+          "photo" : "/wb8behVKjBHX9XXrEydvNINCYwH.jpg",
+          "name" : "Yuichi Nakamura",
+          "character" : "Gray Fullbuster (voice)"
         },
         {
-          "photo" : "/9BSm1WVa6t0aj1cIHuVudkGVVy2.jpg",
-          "name" : "Lucy Boynton",
-          "character" : "Mary Austin"
+          "photo" : "/4WQXLzj0gjYqkYFcTTxAkIwedvr.jpg",
+          "name" : "Sayaka Ohara",
+          "character" : "Erza Scarlet (voice)"
         },
         {
-          "photo" : "/ju5ho6nnwOQ2QLGLnDP9yOZhGpb.jpg",
-          "name" : "Aidan Gillen",
-          "character" : "John Reid"
+          "photo" : "/o0Aueg2zc3E8ojbguo8Tbd1oAyB.jpg",
+          "name" : "Satomi Sato",
+          "character" : "Wendy Marvell (voice)"
         }
       ],
       "trailer" : null
     },
     {
       "poster" : "@drawable/tv_poster_family_guy",
-      "title" : "Cold Pursuit",
-      "rating" : "R",
-      "releaseDate" : "02/08/2019",
-      "userScore" : 5.7,
-      "overview" : "The quiet family life of Nels Coxman, a snowplow driver, is upended after his son's murder. Nels begins a vengeful hunt for Viking, the drug lord he holds responsible for the killing, eliminating Viking's associates one by one. As Nels draws closer to Viking, his actions bring even more unexpected and violent consequences, as he proves that revenge is all in the execution.",
+      "title" : "Family Guy",
+      "rating" : "TV-14",
+      "releaseDate" : "31/01/1999",
+      "userScore" : 7.1,
+      "overview" : "Sick, twisted, politically incorrect and Freakin' Sweet animated series featuring the adventures of the dysfunctional Griffin family. Bumbling Peter and long-suffering Lois have three kids. Stewie (a brilliant but sadistic baby bent on killing his mother and taking over the world), Meg (the oldest, and is the most unpopular girl in town) and Chris (the middle kid, he's not very bright but has a passion for movies). The final member of the family is Brian - a talking dog and much more than a pet, he keeps Stewie in check whilst sipping Martinis and sorting through his own life issues.",
       "casts" : [
         {
-          "photo" : "/bboldwqSC6tdw2iL6631c98l2Mn.jpg",
-          "name" : "Liam Neeson",
-          "character" : "Nels Coxman"
+          "photo" : "/8oQJqM51Z0Qtdb7sE6ZfX1peNCB.jpg",
+          "name" : "8oQJqM51Z0Qtdb7sE6ZfX1peNCB",
+          "character" : "Peter Griffin / Brian Griffin"
         },
         {
-          "photo" : "/2Ryt0SsExqWrLTzBu6sZcbLwoDJ.jpg",
-          "name" : "Laura Dern",
-          "character" : "Grace Coxman"
+          "photo" : "/evbCnRe5Yfuy0B41PONLTIcvbem.jpg",
+          "name" : "Alex Borstein",
+          "character" : "Lois Griffin / Tricia Takanawa"
         },
         {
-          "photo" : "/aJ8bzA1WJOBFx0Ppdo1fLMiNxLh.jpg",
-          "name" : "Emmy Rossum",
-          "character" : "Kim Dash"
+          "photo" : "/6Lp9qPkMO740Hcp8NBYZZLWWvJF.jpg",
+          "name" : "Mila Kunis",
+          "character" : "Meg Griffin (voice)"
         },
         {
-          "photo" : "/la3J6E12pbZHe0sE73EipKkzQOp.jpg",
-          "name" : "Michael Eklund",
-          "character" : "Steve 'Speedo' Milliner"
-        },
-        {
-          "photo" : "/z9uCzTIAy9pi3r3X2fDGiYuLCXK.jpg",
-          "name" : "Micheál Richardson",
-          "character" : "Kyle Coxman"
-        },
-        {
-          "photo" : "/3h0F6HRz4He5ESx9mIIIGV90MF2.jpg",
-          "name" : "Bradley Stryker",
-          "character" : "Jacob 'Limbo' Rutman"
+          "photo" : "/l4No5Eu6j0U80hCIkaSn17AOWrj.jpg",
+          "name" : "Seth Green",
+          "character" : "Chris Griffin (voice)"
         }
       ],
       "trailer" : null
     },
     {
       "poster" : "@drawable/tv_poster_flash",
-      "title" : "Creed II",
-      "rating" : "PG-13",
-      "releaseDate" : "11/21/2018",
-      "userScore" : 6.9,
-      "overview" : "Between personal obligations and training for his next big fight against an opponent with ties to his family's past, Adonis Creed is up against the challenge of his life.",
+      "title" : "The Flash",
+      "rating" : "TV-14",
+      "releaseDate" : "07/10/2014",
+      "userScore" : 7.8,
+      "overview" : "After a particle accelerator causes a freak storm, CSI Investigator Barry Allen is struck by lightning and falls into a coma. Months later he awakens with the power of super speed, granting him the ability to move through Central City like an unseen guardian angel. Though initially excited by his newfound powers, Barry is shocked to discover he is not the only \"meta-human\" who was created in the wake of the accelerator explosion -- and not everyone is using their new powers for good. Barry partners with S.T.A.R. Labs and dedicates his life to protect the innocent. For now, only a few close friends and associates know that Barry is literally the fastest man alive, but it won't be long before the world learns what Barry Allen has become...The Flash.",
       "casts" : [
         {
-          "photo" : "/hz9AOUWZ2zzS0dpPJ1yQv2grA35.jpg",
-          "name" : "Michael B. Jordan",
-          "character" : "Adonis Creed"
+          "photo" : "/kEGU1gGySIe63lyL7AnwXEw4rQn.jpg",
+          "name" : "Grant Gustin",
+          "character" : "Barry Allen / The Flash"
         },
         {
-          "photo" : "/qDRGPAcQoW8Wuig9bvoLpHwf1gU.jpg",
-          "name" : "Sylvester Stallone",
-          "character" : "Robert \"Rocky\" Balboa Sr."
+          "photo" : "/7HUcygrInxDKrRbwCV3jpVwC75c.jpg",
+          "name" : "Candice Patton",
+          "character" : "Iris West-Allen"
         },
         {
-          "photo" : "/jDLOU3Ay59NxLH8QDm5hcVTaKuC.jpg",
-          "name" : "Dolph Lundgren",
-          "character" : "Ivan Drago"
+          "photo" : "/dpX6WMQjJDD93YYaC9Wd6tgucuZ.jpg",
+          "name" : "Danielle Panabaker",
+          "character" : "Caitlin Snow / Killer Frost / Frost"
         },
         {
-          "photo" : "/lE26A169mjuwW5x0zx2wW9Q9o2w.jpg",
-          "name" : "Florian Munteanu",
-          "character" : "Viktor Drago"
+          "photo" : "/enyC1P8DQThh1huqFQlVfdRuji1.jpg",
+          "name" : "Jesse L. Martin",
+          "character" : "Joe West"
         },
         {
-          "photo" : "/cJ64yI9OiQN8Edp4FgAHiLuoWiQ.jpg",
-          "name" : "Tessa Thompson",
-          "character" : "Bianca Taylor"
+          "photo" : "/s5DQrvszZeLUIGdD9ryl1aMsGQv.jpg",
+          "name" : "Kayla Compton",
+          "character" : "Allegra Garcia"
         },
         {
-          "photo" : "/9gvwUEu1fZTSTkykaCx2fSdSDWK.jpg",
-          "name" : "Wood Harris",
-          "character" : "Tony \"Little Duke\" Evers"
+          "photo" : "/inEnfkpRXSVYaOKK2kpgWrqM26i.jpg",
+          "name" : "Brandon McKnight",
+          "character" : "Chester P. Runk"
         }
       ],
       "trailer" : null
     },
     {
       "poster" : "@drawable/tv_poster_god",
-      "title" : "Fantastic Beasts: The Crimes of Grindelwald",
-      "rating" : "PG-13",
-      "releaseDate" : "11/16/2018",
-      "userScore" : 6.9,
-      "overview" : "Gellert Grindelwald has escaped imprisonment and has begun gathering followers to his cause—elevating wizards above all non-magical beings. The only one capable of putting a stop to him is the wizard he once called his closest friend, Albus Dumbledore. However, Dumbledore will need to seek help from the wizard who had thwarted Grindelwald once before, his former student Newt Scamander, who agrees to help, unaware of the dangers that lie ahead. Lines are drawn as love and loyalty are tested, even among the truest friends and family, in an increasingly divided wizarding world.",
+      "title" : "Game of Thrones",
+      "rating" : "TV-MA",
+      "releaseDate" : "17/04/2011",
+      "userScore" : 8.4,
+      "overview" : "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
       "casts" : [
         {
-          "photo" : "/fSvG7qzoBBnJUmgtIuMgrK3EQPN.jpg",
-          "name" : "Eddie Redmayne",
-          "character" : "Newt Scamander"
+          "photo" : "/zCWcyAfbbEgB3Lmiew1yrkPU4Lr.jpg",
+          "name" : "Nikolaj Coster-Waldau",
+          "character" : "Jaime Lannister"
         },
         {
-          "photo" : "/cMO1x5gksXKkxh6tDzIzHvHp3VV.jpg",
-          "name" : "Katherine Waterston",
-          "character" : "Porpentina 'Tina' Goldstein"
+          "photo" : "/xR2IBnBlUdyBe5hecaVdtRuQqUE.jpg",
+          "name" : "Lena Headey",
+          "character" : "Cersei Lannister"
         },
         {
-          "photo" : "/zJWbLEjfbDthBMucq9M6L4GJXL3.jpg",
-          "name" : "Dan Fogler",
-          "character" : "Jacob Kowalski"
+          "photo" : "/86jeYFV40KctQMDQIWhJ5oviNGj.jpg",
+          "name" : "Emilia Clarke",
+          "character" : "Daenerys Targaryen"
         },
         {
-          "photo" : "/49DhpCxZkqpC6PZxQYWNDCZqUY0.jpg",
-          "name" : "Alison Sudol",
-          "character" : "Queenie Goldstein"
+          "photo" : "/ljmFT9zYqh4k2bmEcNU6rxoE7fW.jpg",
+          "name" : "Liam Cunningham",
+          "character" : "Davos Seaworth"
         },
         {
-          "photo" : "/ilPBHd3r3ahlipNQtjr4E3G04jJ.jpg",
-          "name" : "Johnny Depp",
-          "character" : "Gellert Grindelwald"
+          "photo" : "/noInYh5IKASiecR5lHJSjXIDmkm.jpg",
+          "name" : "Kit Harington",
+          "character" : "Jon Snow"
         },
         {
-          "photo" : "/A6Y0m7qEe04ZTHKyYDLbnyCHNzn.jpg",
-          "name" : "Jude Law",
-          "character" : "Albus Dumbledore"
+          "photo" : "/3T8rFgLbfuQoPFVC0m6jOYYaRBX.jpg",
+          "name" : "Sophie Turner",
+          "character" : "Sansa Stark"
         }
       ],
       "trailer" : null
     },
     {
       "poster" : "@drawable/tv_poster_gotham",
-      "title" : "Glass",
-      "rating" : "PG-13",
-      "releaseDate" : "01/18/2019",
-      "userScore" : 6.7,
-      "overview" : "In a series of escalating encounters, former security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.",
+      "title" : "Gotham",
+      "rating" : "TV-14",
+      "releaseDate" : "22/09/2014",
+      "userScore" : 7.6,
+      "overview" : "Everyone knows the name Commissioner Gordon. He is one of the crime world's greatest foes, a man whose reputation is synonymous with law and order. But what is known of Gordon's story and his rise from rookie detective to Police Commissioner? What did it take to navigate the multiple layers of corruption that secretly ruled Gotham City, the spawning ground of the world's most iconic villains? And what circumstances created them – the larger-than-life personas who would become Catwoman, The Penguin, The Riddler, Two-Face and The Joker?",
       "casts" : [
         {
-          "photo" : "/u4REKbm3zhFI2J5tVyqRovGRYUJ.jpg",
-          "name" : "James McAvoy",
-          "character" : "Patricia"
+          "photo" : "/2jlwhOXKakL6gk365u4gPkTtHHi.jpg",
+          "name" : "Ben McKenzie",
+          "character" : "James \"Jim\" Gordon"
         },
         {
-          "photo" : "/caX3KtMU42EP3VLRFFBwqIIrch5.jpg",
-          "name" : "Bruce Willis",
-          "character" : "David Dunn"
+          "photo" : "/5Rj850yVkIqsgCihtZLbkNSHbFb.jpg",
+          "name" : "Donal Logue",
+          "character" : "Harvey Bullock"
         },
         {
-          "photo" : "/nCJJ3NVksYNxIzEHcyC1XziwPVj.jpg",
-          "name" : "Samuel L. Jackson",
-          "character" : "Mr. Glass"
+          "photo" : "/jc9RQJQTRWi5lrob8DCSt1sW5N0.jpg",
+          "name" : "David Mazouz",
+          "character" : "Bruce Wayne / 514A / Batman"
         },
         {
-          "photo" : "/aSOvCmB1nsl19IqrjuuWwaguvDh.jpg",
-          "name" : "Anya Taylor-Joy",
-          "character" : "Casey Cooke"
+          "photo" : "/j4pAEMhKL5vA61ADrkxxLFtcI4c.jpg",
+          "name" : "Sean Pertwee",
+          "character" : "Alfred Pennyworth"
         },
         {
-          "photo" : "/jkhpv4oPNcMSvPPDUuCyPIFwYyS.jpg",
-          "name" : "Sarah Paulson",
-          "character" : "Dr. Ellie Staple"
+          "photo" : "/2LgeNkwtyKikKT5vhuXjazdqgzn.jpg",
+          "name" : "Robin Lord Taylor",
+          "character" : "Oswald Cobblepot / The Penguin"
         },
         {
-          "photo" : "/bvq0KXSIc5PE6yHnpEDM8PR44Fe.jpg",
-          "name" : "Spencer Treat Clark",
-          "character" : "Joseph Dunn"
+          "photo" : "/wFR9REFinAyJsluy9EPDcoOXjqB.jpg",
+          "name" : "Erin Richards",
+          "character" : "Barbara Kean"
         }
       ],
       "trailer" : null
     },
     {
       "poster" : "@drawable/tv_poster_grey_anatomy",
-      "title" : "How to Train Your Dragon: The Hidden World",
-      "rating" : "PG",
-      "releaseDate" : "02/22/2019",
-      "userScore" : 7.8,
-      "overview" : "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.",
+      "title" : "Grey's Anatomy",
+      "rating" : "TV-14",
+      "releaseDate" : "27/03/2005",
+      "userScore" : 8.2,
+      "overview" : "Follows the personal and professional lives of a group of doctors at Seattle’s Grey Sloan Memorial Hospital.",
       "casts" : [
         {
-          "photo" : "/aDfqAMsPzIZvvj1ymivsKjRAfyv.jpg",
-          "name" : "Jay Baruchel",
-          "character" : "Hiccup (voice)"
+          "photo" : "/yPd4G2RcjXQPNWkKUPbWh5v1flC.jpg",
+          "name" : "Ellen Pompeo",
+          "character" : "Meredith Grey"
         },
         {
-          "photo" : "/7F84Lh2lKpvkM3EiOvqqvlOmw93.jpg",
-          "name" : "America Ferrera",
-          "character" : "Astrid (voice)"
+          "photo" : "/iddDcaysDQ6IVMUjJ97Bv3lTBCu.jpg",
+          "name" : "James Pickens Jr.",
+          "character" : "Richard Webber"
         },
         {
-          "photo" : "/p2RYVGdrcP0m70BkkiKcwyrDeim.jpg",
-          "name" : "F. Murray Abraham",
-          "character" : "Grimmel (voice)"
+          "photo" : "/83Ynxlv3jV4ahkOiAEfunM7Rez2.jpg",
+          "name" : "Chandra Wilson",
+          "character" : "Miranda Bailey"
         },
         {
-          "photo" : "/vUuEHiAR0eD3XEJhg2DWIjymUAA.jpg",
-          "name" : "Cate Blanchett",
-          "character" : "Valka (voice)"
+          "photo" : "/eLexGfeg4SyY9anPyNoh8hzKATD.jpg",
+          "name" : "Caterina Scorsone",
+          "character" : "Amelia Shepherd"
         },
         {
-          "photo" : "/1vRHSuQtLEUAXqKO3l1mjUxd4j4.jpg",
-          "name" : "Gerard Butler",
-          "character" : "Stoick (voice)"
+          "photo" : "/KtmEKOSehmQ35JfGjEjpqlypbP.jpg",
+          "name" : "Kevin McKidd",
+          "character" : "Owen Hunt"
         },
         {
-          "photo" : "/mBxNrOxdQeM7bVBveE47Syj9ES6.jpg",
-          "name" : "Craig Ferguson",
-          "character" : "Gobber (voice)"
+          "photo" : "/eKF5lSEdEtOCbsgb5mKjd8vYLck.jpg",
+          "name" : "Camilla Luddington",
+          "character" : "Jo Wilson"
         }
       ],
       "trailer" : null
     },
     {
-      "poster" : "@drawable/poster_hanna",
-      "title" : "Avengers: Infinity War",
-      "rating" : "PG-13",
-      "releaseDate" : "04/27/2018",
-      "userScore" : 8.3,
-      "overview" : "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
+      "poster" : "@drawable/tv_poster_hanna",
+      "title" : "Hanna",
+      "rating" : "TV-MA",
+      "releaseDate" : "28/03/2019",
+      "userScore" : 7.6,
+      "overview" : "This thriller and coming-of-age drama follows the journey of an extraordinary young girl as she evades the relentless pursuit of an off-book CIA agent and tries to unearth the truth behind who she is. Based on the 2011 Joe Wright film.",
       "casts" : [
         {
-          "photo" : "/5qHNjhtjMD4YWH3UP0rm4tKwxCL.jpg",
-          "name" : "Robert Downey Jr.",
-          "character" : "Tony Stark / Iron Man"
+          "photo" : "/4S3D3TqS847CFLdPyKT9WSlhPmz.jpg",
+          "name" : "Esme Creed-Miles",
+          "character" : "Hanna"
         },
         {
-          "photo" : "/jpurJ9jAcLCYjgHHfYF32m3zJYm.jpg",
-          "name" : "Chris Hemsworth",
-          "character" : "Thor Odinson"
+          "photo" : "/zza8XezUz4I5Is55H2totMbGLeG.jpg",
+          "name" : "Mireille Enos",
+          "character" : "Marissa Wiegler"
         },
         {
-          "photo" : "/z3dvKqMNDQWk3QLxzumloQVR0pv.jpg",
-          "name" : "Mark Ruffalo",
-          "character" : "Bruce Banner / Hulk"
+          "photo" : "/5gJszOF45KMPB5tmAbKdK0qgQBx.jpg",
+          "name" : "Dermot Mulroney",
+          "character" : "John Carmichael"
         },
         {
-          "photo" : "/3bOGNsHlrswhyW79uvIHH1V43JI.jpg",
-          "name" : "Chris Evans",
-          "character" : "Steve Rogers / Captain America"
-        },
-        {
-          "photo" : "/6NsMbJXRlDZuDzatN2akFdGuTvx.jpg",
-          "name" : "Scarlett Johansson",
-          "character" : "Natasha Romanoff / Black Widow"
-        },
-        {
-          "photo" : "/fBEucxECxGLKVHBznO0qHtCGiMO.jpg",
-          "name" : "Benedict Cumberbatch",
-          "character" : "Stephen Strange / Doctor Strange"
+          "photo" : "/iXKotiB0Xe9iJLCBbjAedHPLb7p.jpg",
+          "name" : "Ray Liotta",
+          "character" : "Gordon Evans"
         }
       ],
       "trailer" : null
