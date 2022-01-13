@@ -5,11 +5,9 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.get
-import androidx.fragment.app.Fragment
 import com.google.android.material.tabs.TabLayoutMediator
 import com.jabirdev.delokfilm.R
 import com.jabirdev.delokfilm.adapter.TabAdapter
@@ -17,7 +15,6 @@ import com.jabirdev.delokfilm.databinding.ActivityMainBinding
 import com.jabirdev.delokfilm.fragments.MoviesFragment
 import com.jabirdev.delokfilm.fragments.TvShowFragment
 import com.jabirdev.delokfilm.utils.ThemeUtil
-import java.io.IOException
 
 class MainActivity : AppCompatActivity() {
 

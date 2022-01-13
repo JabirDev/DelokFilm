@@ -11,31 +11,32 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityOptionsCompat
 import androidx.recyclerview.widget.GridLayoutManager
 import com.google.android.material.transition.MaterialElevationScale
+import com.jabirdev.delokfilm.BuildConfig
 import com.jabirdev.delokfilm.activities.DetailActivity
-import com.jabirdev.delokfilm.activities.MainViewModel
 import com.jabirdev.delokfilm.adapter.MovieAdapter
 import com.jabirdev.delokfilm.app.AppConstants
 import com.jabirdev.delokfilm.databinding.FragmentMoviesBinding
-import com.jabirdev.delokfilm.utils.GetJson
 import com.jabirdev.delokfilm.utils.GridSpacingItemDecoration
 import com.jabirdev.delokfilm.utils.ObtainViewModel
+import com.jabirdev.delokfilm.viewmodel.PopularMovieViewModel
 
 class MoviesFragment : Fragment() {
 
     private var _binding: FragmentMoviesBinding? = null
     private val binding get() = _binding!!
     private val adapter = MovieAdapter()
-    private var mainViewModel: MainViewModel? = null
+    private var movieViewModel: PopularMovieViewModel? = null
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         val spanCount = if(resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT) 2 else 4
 
-        mainViewModel = ObtainViewModel.main(requireActivity() as AppCompatActivity)
-        val json = GetJson.data(requireContext())
-        val dataJson = mainViewModel?.getJson(json)
-        adapter.setData(dataJson?.movies!!)
+        movieViewModel = ObtainViewModel.popularMovie(requireActivity() as AppCompatActivity)
+        movieViewModel?.getPopularMovies()?.observe(viewLifecycleOwner, {
+            if (it != null) adapter.setData(it)
+            binding.progressBar.visibility = View.GONE
+        })
 
         binding.rvMovies.adapter = adapter
         binding.rvMovies.layoutManager = GridLayoutManager(requireContext(), spanCount)
@@ -50,8 +51,15 @@ class MoviesFragment : Fragment() {
             }
             val options = ActivityOptionsCompat.makeSceneTransitionAnimation(requireActivity(), viewLayout, transition)
             val i = Intent(requireContext(), DetailActivity::class.java)
-            i.putExtra(AppConstants.KEY_MOVIE_DATA, data)
+            i.putExtra(AppConstants.KEY_ID, data.id)
+            i.putExtra(AppConstants.KEY_TITLE, data.title)
+            i.putExtra(AppConstants.KEY_OVERVIEW, data.overview)
+            i.putExtra(AppConstants.KEY_POSTER, "${BuildConfig.TMDB_IMAGE_URL}${data.posterPath}")
+            i.putExtra(AppConstants.KEY_SCORE, data.voteAverage)
+            i.putExtra(AppConstants.KEY_RELEASE_DATE, data.releaseDate)
+            i.putExtra(AppConstants.KEY_RATING, data.adult)
             i.putExtra(AppConstants.KEY_TRANSITION, transition)
+            i.putExtra(AppConstants.KEY_TYPE, AppConstants.TYPE_MOVIE)
             startActivity(i, options.toBundle())
         }
 

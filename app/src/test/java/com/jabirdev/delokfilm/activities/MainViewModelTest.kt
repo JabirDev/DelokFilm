@@ -1,6 +1,7 @@
 package com.jabirdev.delokfilm.activities
 
 import com.jabirdev.delokfilm.utils.GetJson
+import com.jabirdev.delokfilm.viewmodel.MainViewModel
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
 import org.junit.Before
@@ -14,7 +15,7 @@ class MainViewModelTest {
 
     @Before
     fun setUp(){
-        viewModel = MainViewModel()
+//        viewModel = MainViewModel()
     }
 
     @Test

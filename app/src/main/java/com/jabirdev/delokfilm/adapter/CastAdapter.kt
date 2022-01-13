@@ -2,32 +2,26 @@ package com.jabirdev.delokfilm.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.jabirdev.delokfilm.BuildConfig
 import com.jabirdev.delokfilm.R
+import com.jabirdev.delokfilm.data.CreditsEntity
 import com.jabirdev.delokfilm.databinding.ItemCastBinding
-import com.jabirdev.delokfilm.models.DataModel
 
 class CastAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
-    private var oldList = emptyList<DataModel.Casts>()
+    private var oldList = emptyList<CreditsEntity>()
 
     inner class CastHolder(itemView: ItemCastBinding) : RecyclerView.ViewHolder(itemView.root){
         private val binding = itemView
 
-        fun setData(data: DataModel.Casts){
-            val photoUrl = "${BuildConfig.TMDB_IMAGE_URL}${data.photo}"
+        fun setData(data: CreditsEntity){
+            val photoUrl = "${BuildConfig.TMDB_IMAGE_URL}${data.profilePath}"
             binding.imageView.load(photoUrl){
-                placeholder(R.drawable.ic_launcher_background)
-                error(R.drawable.ic_launcher_background)
-                listener(
-                    onError = { a, b ->
-                        Toast.makeText(a.context, b.message, Toast.LENGTH_SHORT).show()
-                    }
-                )
+                placeholder(R.drawable.delokfilm)
+                error(R.drawable.delokfilm)
             }
             binding.tvName.text = data.name
             binding.tvCharacter.text = data.character
@@ -48,7 +42,7 @@ class CastAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         return oldList.size
     }
 
-    fun setData(newList: List<DataModel.Casts>){
+    fun setData(newList: List<CreditsEntity>){
         val diffUtil = CastsDiffUtil(oldList, newList)
         val diffResult = DiffUtil.calculateDiff(diffUtil)
         oldList = newList
@@ -56,8 +50,8 @@ class CastAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     }
 
     class CastsDiffUtil(
-        private val oldList: List<DataModel.Casts>,
-        private val newList: List<DataModel.Casts>
+        private val oldList: List<CreditsEntity>,
+        private val newList: List<CreditsEntity>
     ) : DiffUtil.Callback() {
         override fun getOldListSize(): Int {
             return oldList.size
@@ -68,7 +62,7 @@ class CastAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         }
 
         override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
-            return oldList[oldItemPosition].photo == newList[newItemPosition].photo &&
+            return oldList[oldItemPosition].profilePath == newList[newItemPosition].profilePath &&
                     oldList[oldItemPosition].name == newList[newItemPosition].name &&
                     oldList[oldItemPosition].character == newList[newItemPosition].character
         }

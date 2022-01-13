@@ -8,21 +8,21 @@ import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.jabirdev.delokfilm.BuildConfig
 import com.jabirdev.delokfilm.R
-import com.jabirdev.delokfilm.data.MovieEntity
+import com.jabirdev.delokfilm.data.TvEntity
 import com.jabirdev.delokfilm.databinding.ItemMovieBinding
 import kotlin.math.roundToInt
 
-class MovieAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class TvShowAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     var addItemClickListener: MovieItemClickListener? = null
-    private var oldList = emptyList<MovieEntity>()
+    private var oldList = emptyList<TvEntity>()
 
     inner class MovieHolder(itemView: ItemMovieBinding) : RecyclerView.ViewHolder(itemView.root){
         private val binding = itemView
         private val context = binding.root.context
 
-        fun setData(data: MovieEntity){
-            val transition = "${context.getString(R.string.transition_item)}_${data.title}"
+        fun setData(data: TvEntity){
+            val transition = "${context.getString(R.string.transition_item)}_${data.name}"
             binding.root.setOnClickListener {
                 addItemClickListener?.onClickItem(data,transition, binding.root)
             }
@@ -34,7 +34,7 @@ class MovieAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
                 error(R.drawable.delokfilm)
             }
             binding.progressScore.progress = (data.voteAverage * 10).roundToInt()
-            binding.tvTitle.text = data.title
+            binding.tvTitle.text = data.name
         }
 
     }
@@ -52,7 +52,7 @@ class MovieAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         return oldList.size
     }
 
-    fun setData(newList: List<MovieEntity>){
+    fun setData(newList: List<TvEntity>){
         val diffUtil = MovieDiffUtil(oldList, newList)
         val diffResult = DiffUtil.calculateDiff(diffUtil)
         oldList = newList
@@ -60,8 +60,8 @@ class MovieAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     }
 
     class MovieDiffUtil(
-        private val oldList: List<MovieEntity>,
-        private val newList: List<MovieEntity>
+        private val oldList: List<TvEntity>,
+        private val newList: List<TvEntity>
     ) : DiffUtil.Callback() {
         override fun getOldListSize(): Int {
             return oldList.size
@@ -72,7 +72,7 @@ class MovieAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
         }
 
         override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
-            return oldList[oldItemPosition].title == newList[newItemPosition].title &&
+            return oldList[oldItemPosition].name == newList[newItemPosition].name &&
                     oldList[oldItemPosition].id == newList[newItemPosition].id
         }
 
@@ -82,7 +82,7 @@ class MovieAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     }
 
     fun interface MovieItemClickListener {
-        fun onClickItem(data: MovieEntity, transition: String, viewLayout: View)
+        fun onClickItem(data: TvEntity, transition: String, viewLayout: View)
     }
 
 }
