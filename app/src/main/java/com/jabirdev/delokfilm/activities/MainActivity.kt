@@ -1,5 +1,6 @@
 package com.jabirdev.delokfilm.activities
 
+import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
 import android.view.Menu
@@ -19,26 +20,30 @@ import com.jabirdev.delokfilm.utils.ThemeUtil
 class MainActivity : AppCompatActivity() {
 
     private var _binding: ActivityMainBinding? = null
-    private val binding get() = _binding!!
+    private val binding get() = _binding
     private val fragmentList = arrayListOf( MoviesFragment(), TvShowFragment() )
     private var themeUtil: ThemeUtil? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         _binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(binding?.root)
 
         themeUtil = ThemeUtil(this)
 
-        setSupportActionBar(binding.appBar.toolbar)
+        setSupportActionBar(binding?.appBar?.toolbar)
 
         val tabTitles = resources.getStringArray(R.array.tab_titles)
         val adapter = TabAdapter(supportFragmentManager, lifecycle)
         adapter.fragmentList = fragmentList
-        binding.viewPager.adapter = adapter
-        TabLayoutMediator (binding.mainTab, binding.viewPager){ tab, position ->
-            tab.text = tabTitles[position]
-        }.attach()
+        binding?.viewPager?.adapter = adapter
+        binding?.mainTab?.let {
+            binding?.viewPager?.let { it1 ->
+                TabLayoutMediator (it, it1){ tab, position ->
+                    tab.text = tabTitles[position]
+                }.attach()
+            }
+        }
 
     }
 
@@ -57,6 +62,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
+            R.id.menu_favorite -> {
+                startActivity(Intent(this, FavoriteActivity::class.java))
+            }
             R.id.menu_day -> {
                 themeUtil?.changeTheme(AppCompatDelegate.MODE_NIGHT_NO)
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)

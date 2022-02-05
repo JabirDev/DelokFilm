@@ -3,19 +3,19 @@ package com.jabirdev.delokfilm.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.jabirdev.delokfilm.BuildConfig
 import com.jabirdev.delokfilm.R
-import com.jabirdev.delokfilm.data.TvEntity
+import com.jabirdev.delokfilm.data.source.local.entity.TvEntity
 import com.jabirdev.delokfilm.databinding.ItemMovieBinding
 import kotlin.math.roundToInt
 
-class TvShowAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
+class TvShowAdapter : PagedListAdapter<TvEntity, RecyclerView.ViewHolder>(DIFF_CALLBACK) {
 
     var addItemClickListener: MovieItemClickListener? = null
-    private var oldList = emptyList<TvEntity>()
 
     inner class MovieHolder(itemView: ItemMovieBinding) : RecyclerView.ViewHolder(itemView.root){
         private val binding = itemView
@@ -45,44 +45,26 @@ class TvShowAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
-        (holder as MovieHolder).setData(oldList[position])
-    }
-
-    override fun getItemCount(): Int {
-        return oldList.size
-    }
-
-    fun setData(newList: List<TvEntity>){
-        val diffUtil = MovieDiffUtil(oldList, newList)
-        val diffResult = DiffUtil.calculateDiff(diffUtil)
-        oldList = newList
-        diffResult.dispatchUpdatesTo(this)
-    }
-
-    class MovieDiffUtil(
-        private val oldList: List<TvEntity>,
-        private val newList: List<TvEntity>
-    ) : DiffUtil.Callback() {
-        override fun getOldListSize(): Int {
-            return oldList.size
-        }
-
-        override fun getNewListSize(): Int {
-            return newList.size
-        }
-
-        override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
-            return oldList[oldItemPosition].name == newList[newItemPosition].name &&
-                    oldList[oldItemPosition].id == newList[newItemPosition].id
-        }
-
-        override fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
-            return oldList[oldItemPosition] == newList[newItemPosition]
+        val item = getItem(position)
+        if (item != null){
+            (holder as MovieHolder).setData(item)
         }
     }
 
     fun interface MovieItemClickListener {
         fun onClickItem(data: TvEntity, transition: String, viewLayout: View)
+    }
+
+    companion object {
+        private val DIFF_CALLBACK = object : DiffUtil.ItemCallback<TvEntity>(){
+            override fun areItemsTheSame(oldItem: TvEntity, newItem: TvEntity): Boolean {
+                return oldItem.id == newItem.id
+            }
+
+            override fun areContentsTheSame(oldItem: TvEntity, newItem: TvEntity): Boolean {
+                return oldItem == newItem
+            }
+        }
     }
 
 }

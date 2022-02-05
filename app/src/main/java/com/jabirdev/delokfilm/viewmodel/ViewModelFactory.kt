@@ -1,8 +1,9 @@
 package com.jabirdev.delokfilm.viewmodel
 
+import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.jabirdev.delokfilm.data.source.MovieRepository
+import com.jabirdev.delokfilm.data.MovieRepository
 import com.jabirdev.delokfilm.di.Injection
 
 class ViewModelFactory private constructor(private val movieRepository: MovieRepository) : ViewModelProvider.NewInstanceFactory(){
@@ -10,9 +11,6 @@ class ViewModelFactory private constructor(private val movieRepository: MovieRep
     @Suppress("UNCHECKED_CAST")
     override fun <T : ViewModel> create(modelClass: Class<T>) : T {
         when {
-            modelClass.isAssignableFrom(MainViewModel::class.java) -> {
-                return MainViewModel(movieRepository) as T
-            }
             modelClass.isAssignableFrom(PopularMovieViewModel::class.java) -> {
                 return PopularMovieViewModel(movieRepository) as T
             }
@@ -25,6 +23,9 @@ class ViewModelFactory private constructor(private val movieRepository: MovieRep
             modelClass.isAssignableFrom(DetailTvViewModel::class.java) -> {
                 return DetailTvViewModel(movieRepository) as T
             }
+            modelClass.isAssignableFrom(FavoriteViewModel::class.java) -> {
+                return FavoriteViewModel(movieRepository) as T
+            }
             else -> throw IllegalArgumentException("Unknown ViewModel class: ${modelClass.name}")
 
         }
@@ -32,9 +33,9 @@ class ViewModelFactory private constructor(private val movieRepository: MovieRep
 
     companion object {
         private var instance: ViewModelFactory? = null
-        fun getInstance() : ViewModelFactory =
+        fun getInstance(context: Context) : ViewModelFactory =
             instance ?: synchronized(this){
-                instance ?: ViewModelFactory(Injection.provideRepository()).apply {
+                instance ?: ViewModelFactory(Injection.provideRepository(context)).apply {
                     instance = this
                 }
             }

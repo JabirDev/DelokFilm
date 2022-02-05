@@ -4,7 +4,7 @@ import com.jabirdev.delokfilm.app.TMDBConstants.PATH_MOVIES
 import com.jabirdev.delokfilm.app.TMDBConstants.PATH_POPULAR_MOVIES
 import com.jabirdev.delokfilm.app.TMDBConstants.PATH_POPULAR_TV_SHOW
 import com.jabirdev.delokfilm.app.TMDBConstants.PATH_TV_SHOW
-import com.jabirdev.delokfilm.models.*
+import com.jabirdev.delokfilm.data.source.remote.response.*
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path
@@ -18,10 +18,10 @@ interface ApiService {
     fun getPopularTv() : Call<TvShowDataModel>
 
     @GET("$PATH_MOVIES{id}")
-    fun getDetailMovie(@Path("id") id: String) : Call<DetailMovieModel>
+    fun getDetailMovie(@Path("id") id: String) : Call<MovieDataModel.MovieResult>
 
     @GET("$PATH_TV_SHOW{id}")
-    fun getDetailTvShow(@Path("id") id: String) : Call<DetailTvShowModel>
+    fun getDetailTvShow(@Path("id") id: String) : Call<TvShowDataModel.TVShowResult>
 
     @GET("{path}{id}/credits")
     fun getCast(

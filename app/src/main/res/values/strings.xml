@@ -10,4 +10,10 @@
     <string name="transition_item">transition_item</string>
     <string name="title_share">Share</string>
     <string name="tv_casts">Casts</string>
+    <string name="add_favorite">Add Favorite</string>
+    <string name="remove_favorite">Remove Favorite</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="no_favorite_movies">No favorite movies</string>
+    <string name="no_favorite_tv">No favorite TV Show</string>
+    <string name="image_poster">Image Poster</string>
 </resources>

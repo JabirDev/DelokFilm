@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import coil.load
 import com.jabirdev.delokfilm.BuildConfig
 import com.jabirdev.delokfilm.R
-import com.jabirdev.delokfilm.data.CreditsEntity
+import com.jabirdev.delokfilm.data.source.local.entity.CreditsEntity
 import com.jabirdev.delokfilm.databinding.ItemCastBinding
 
 class CastAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {

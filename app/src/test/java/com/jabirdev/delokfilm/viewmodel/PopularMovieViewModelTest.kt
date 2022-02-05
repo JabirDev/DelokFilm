@@ -3,9 +3,10 @@ package com.jabirdev.delokfilm.viewmodel
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
-import com.jabirdev.delokfilm.data.MovieEntity
-import com.jabirdev.delokfilm.data.source.MovieRepository
-import com.jabirdev.delokfilm.utils.GetJson
+import androidx.paging.PagedList
+import com.jabirdev.delokfilm.data.MovieRepository
+import com.jabirdev.delokfilm.data.source.local.entity.MovieEntity
+import com.jabirdev.delokfilm.vo.Resource
 import com.nhaarman.mockitokotlin2.verify
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNotNull
@@ -29,7 +30,10 @@ class PopularMovieViewModelTest {
     private lateinit var movieRepository: MovieRepository
 
     @Mock
-    private lateinit var observer: Observer<List<MovieEntity>>
+    private lateinit var observer: Observer<Resource<PagedList<MovieEntity>>>
+
+    @Mock
+    private lateinit var pagedList: PagedList<MovieEntity>
 
     @Before
     fun setUp(){
@@ -38,17 +42,20 @@ class PopularMovieViewModelTest {
 
     @Test
     fun getPopularMovies() {
-        val dummyMovie = GetJson.getPopularMovies()
-        val movies = MutableLiveData<List<MovieEntity>>()
-        movies.value = dummyMovie
+        val mpd = Resource.success(pagedList)
+        `when`(mpd.data?.size).thenReturn(6)
+
+        val movies = MutableLiveData<Resource<PagedList<MovieEntity>>>()
+        movies.value = mpd
 
         `when`(movieRepository.getPopularMovie()).thenReturn(movies)
-        val movieEntity = viewModel.getPopularMovies().value
+        val movieEntities = viewModel.getPopularMovies().value?.data
         verify(movieRepository).getPopularMovie()
-        assertNotNull(movieEntity)
-        assertEquals(20, movieEntity?.size)
+        assertNotNull(movieEntities)
+        assertEquals(6, movieEntities?.size)
 
         viewModel.getPopularMovies().observeForever(observer)
-        verify(observer).onChanged(dummyMovie)
+        verify(observer).onChanged(mpd)
+
     }
 }

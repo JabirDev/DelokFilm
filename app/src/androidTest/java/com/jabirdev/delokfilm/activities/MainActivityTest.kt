@@ -2,6 +2,7 @@ package com.jabirdev.delokfilm.activities
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.test.core.app.ActivityScenario
+import androidx.test.espresso.Espresso
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.IdlingRegistry
 import androidx.test.espresso.action.ViewActions.*
@@ -27,11 +28,11 @@ class MainActivityTest {
         IdlingRegistry.getInstance().unregister(EspressoIdlingResources.idlingResource)
     }
 
-    private val dummyTitle = "Spider-Man: No Way Home"
-    private val dummyOverview = "Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man."
-    private val dummyUserScore = "8.4"
-    private val dummyRating = "false"
-    private val dummyReleaseDate = "2021-12-15"
+    @Test
+    fun changeTheme(){
+        onView(withId(R.id.menu_day)).perform(click())
+        onView(withId(R.id.menu_night)).perform(click())
+    }
 
     @Test
     fun loadFragment(){
@@ -41,19 +42,9 @@ class MainActivityTest {
     }
 
     @Test
-    fun changeTheme(){
-        onView(withId(R.id.menu_day)).perform(click())
-        onView(withId(R.id.menu_night)).perform(click())
-    }
-
-    @Test
     fun loadDataMovie(){
         onView(withId(R.id.rv_movies)).check(matches(isDisplayed()))
         onView(withId(R.id.rv_movies)).perform(RecyclerViewActions.scrollToPosition<RecyclerView.ViewHolder>(10))
-    }
-
-    @Test
-    fun loadDataTv(){
         onView(withId(R.id.view_pager)).perform(swipeLeft())
         onView(withId(R.id.rv_tv_show)).check(matches(isDisplayed()))
         onView(withId(R.id.rv_tv_show)).perform(RecyclerViewActions.scrollToPosition<RecyclerView.ViewHolder>(10))
@@ -66,18 +57,45 @@ class MainActivityTest {
         onView(withId(R.id.image_poster)).check(matches(isDisplayed()))
         onView(withId(R.id.progress_score)).check(matches(isDisplayed()))
         onView(withId(R.id.tv_user_score)).check(matches(isDisplayed()))
-        onView(withId(R.id.tv_user_score)).check(matches(withText(dummyUserScore)))
         onView(withId(R.id.tv_rating)).check(matches(isDisplayed()))
-        onView(withId(R.id.tv_rating)).check(matches(withText(dummyRating)))
         onView(withId(R.id.tv_release_date)).check(matches(isDisplayed()))
-        onView(withId(R.id.tv_release_date)).check(matches(withText(dummyReleaseDate)))
         onView(withId(R.id.app_bar)).perform(click(), swipeUp())
         onView(withId(R.id.tv_title)).check(matches(isDisplayed()))
-        onView(withId(R.id.tv_title)).check(matches(withText(dummyTitle)))
         onView(withId(R.id.tv_overview)).check(matches(isDisplayed()))
-        onView(withId(R.id.tv_overview)).check(matches(withText(dummyOverview)))
         onView(withId(R.id.rv_casts)).check(matches(isDisplayed()))
+        onView(withId(R.id.menu_add_favorite)).perform(click())
         onView(withId(R.id.menu_share)).perform(click())
+    }
+
+    @Test
+    fun loadDetailTv(){
+        onView(withId(R.id.view_pager)).perform(swipeLeft())
+        onView(withId(R.id.rv_tv_show)).check(matches(isDisplayed()))
+        onView(withId(R.id.rv_tv_show)).perform(RecyclerViewActions.actionOnItemAtPosition<RecyclerView.ViewHolder>(1, click()))
+        onView(withId(R.id.image_poster)).check(matches(isDisplayed()))
+        onView(withId(R.id.progress_score)).check(matches(isDisplayed()))
+        onView(withId(R.id.tv_user_score)).check(matches(isDisplayed()))
+        onView(withId(R.id.tv_rating)).check(matches(isDisplayed()))
+        onView(withId(R.id.tv_release_date)).check(matches(isDisplayed()))
+        onView(withId(R.id.app_bar)).perform(click(), swipeUp())
+        onView(withId(R.id.tv_title)).check(matches(isDisplayed()))
+        onView(withId(R.id.tv_overview)).check(matches(isDisplayed()))
+        onView(withId(R.id.rv_casts)).check(matches(isDisplayed()))
+        onView(withId(R.id.menu_add_favorite)).perform(click())
+        onView(withId(R.id.menu_share)).perform(click())
+    }
+
+    @Test
+    fun loadFavorite(){
+        onView(withId(R.id.menu_favorite)).perform(click())
+        onView(withId(R.id.rv_movies)).check(matches(isDisplayed()))
+        onView(withId(R.id.rv_movies)).perform(RecyclerViewActions.actionOnItemAtPosition<RecyclerView.ViewHolder>(0, click()))
+        onView(withId(R.id.menu_remove_favorite)).perform(click())
+        Espresso.pressBack()
+        onView(withId(R.id.view_pager)).perform(swipeLeft())
+        onView(withId(R.id.rv_tv_show)).check(matches(isDisplayed()))
+        onView(withId(R.id.rv_tv_show)).perform(RecyclerViewActions.actionOnItemAtPosition<RecyclerView.ViewHolder>(0, click()))
+        onView(withId(R.id.menu_remove_favorite)).perform(click())
     }
 
 }
