@@ -12,7 +12,7 @@ import com.jabirdev.delokfilm.data.source.local.entity.TvEntity
 
 @Database(
     entities = [MovieEntity::class, TvEntity::class, CreditsEntity::class, CreditsTvEntity::class],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 abstract class MovieDatabase : RoomDatabase(){
@@ -29,7 +29,7 @@ abstract class MovieDatabase : RoomDatabase(){
                     context,
                     MovieDatabase::class.java,
                     "Delokfilm.db"
-                ).build().apply {
+                ).fallbackToDestructiveMigration().build().apply {
                     INSTANCE = this
                 }
             }

@@ -20,7 +20,7 @@ data class MovieEntity(
     var popularity: Float,
 
     @ColumnInfo(name = "poster_path")
-    var posterPath: String,
+    var posterPath: String? = null,
 
     @ColumnInfo(name = "release_date")
     var releaseDate: String,
